@@ -9,7 +9,6 @@ export default function App() {
     <Form onSubmit={onSubmit}>
       <Input name="SamTitle" />
       <TextArea name="SamShortDescription" />
-
       <Input type="submit" value="Submit" />
     </Form>
   );
