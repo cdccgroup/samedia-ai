@@ -1,12 +1,12 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
-import Form from "../components/samform"
+import Form from "../components/samintake"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const SecondPage = () => (
+const IntakePage = () => (
   <Layout>
     <Seo title="Intake" />
     <h1>SA Media Upload</h1>

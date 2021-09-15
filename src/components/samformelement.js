@@ -1,7 +1,7 @@
 import React from "react";
 
 export function Input({ register, name, ...rest }) {
-  return <input {...register(name)} {...rest} />;
+  return <input {...register(name)} {...rest} />;S
 }
 
 export function Select({ register, options, name, ...rest }) {
