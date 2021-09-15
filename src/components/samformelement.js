@@ -15,3 +15,9 @@ export function Select({ register, options, name, ...rest }) {
     </select>
   );
 }
+
+export function TextArea({ register, name, ...rest }) {
+  return <textarea {...register(name)} {...rest} />;
+}
+
+
